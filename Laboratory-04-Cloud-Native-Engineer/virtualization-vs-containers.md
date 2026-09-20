@@ -8,4 +8,4 @@
 | **Isolation Level** | Hardware-level isolation (fully virtualized hardware). | Process-level isolation (processes are isolated using namespaces/cgroups). |
 
 ## Client Recommendation Summary
-For clients complaining that their traditional Virtual Machines take too long to boot up and waste too much RAM, we strongly recommend migrating to containers. Containers provide fast boot times within seconds and much higher resource efficiency by eliminating heavy Guest OS overhead. Additionally, they make deploying and scaling web applications much easier at a lower infrastructure cost[cite: 1].
+For clients complaining that their traditional Virtual Machines take too long to boot up and waste too much RAM, we strongly recommend migrating to containers. Containers provide fast boot times within seconds and much higher resource efficiency by eliminating heavy Guest OS overhead. Additionally, they make deploying and scaling web applications much easier at a lower infrastructure cost.
