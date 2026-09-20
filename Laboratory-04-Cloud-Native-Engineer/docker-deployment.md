@@ -1,10 +1,13 @@
 # Docker Deployment and Container Lifecycle Documentation
 
 ## Checkpoint 3: Docker Environment Verification
-Commands used to verify Docker status in KillerCoda[cite: 1]:
+Commands used to verify Docker status in KillerCoda:
 * `docker --version`
 * `docker info`
-*(Save the screenshot as `screenshots/docker-version.png`)*[cite: 1]
+
+*(Save your terminal screenshot as `screenshots/docker-version.png`)*
 
 ## Checkpoint 4: Deploying Nginx Web Server
-1. Pull the official Nginx image[cite: 1]:
+1. Pull the official Nginx image:
+   ```bash
+   docker pull nginx
